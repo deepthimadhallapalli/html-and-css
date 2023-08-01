@@ -9,7 +9,7 @@
             height:100%;
             width:100%;
             margin:none;
-            background-color: bisque;
+            background-color: grey;
             font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         }
         h1{
@@ -17,7 +17,7 @@
             margin:none;
             height:50px;
             text-align: center;
-            color:antiquewhite;
+            color:black;
         }
         nav{
             background-color: black;

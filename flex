@@ -12,19 +12,19 @@
 
 }
 .container{
-    background-color:black;
+    background-color:white;
    
    margin:20px;
     height:800px;
-    border:4px solid black;
+    border:4px solid blue;
    display:grid;
    grid-template-rows: auto 1fr auto;
 }
-.header{
+.top{
     height:30%;
     width:95%;
-    border:1px solid black;
-    background-color: white;
+    border:1px solid white;
+    background-color: black;
     display:flex;
     margin:10px;
     padding:20px;
@@ -38,18 +38,18 @@
     width:98%;
     margin:10px;
 
-    border:1px solid black;
-    background-color: white;
+    border:1px solid white;
+    background-color:grey;
     display:flex;
     text-align:center;
     justify-content: center;
 
 }
-.footer{
+.bottom{
     height:20%;
     width:95%;
-    border:1px solid black;
-    background-color: white;
+    border:1px solid white;
+    background-color: black;
     display:flex;
     text-align:center;
     justify-content: center;
@@ -59,9 +59,9 @@
 </style>
 </head>
 <body><div class="container">
-    <div class="header"> header</div>
+    <div class="top"> header</div>
     <div class="maincontent">Main content</div>
-    <div class="footer"> footer</div>
+    <div class="bottom"> footer</div>
 </div>
     
 </body>
